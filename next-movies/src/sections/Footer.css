@@ -1,0 +1,9 @@
+
+
+.footer{
+    background: var(--footer-background);
+    color: var(--light-text);
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}

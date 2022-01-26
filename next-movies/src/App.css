@@ -1,0 +1,23 @@
+
+:root{
+    --app-background: #00D7FF;
+    --footer-background: #231F20;
+    --light-text: #FFF;
+}
+
+.App {
+    /* text-align: center; */
+}
+
+.star{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.arrow {
+    width: 20px;
+}
+
+.arrowLeft {
+    transform: rotate(180deg);
+}

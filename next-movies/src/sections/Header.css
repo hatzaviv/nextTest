@@ -1,0 +1,22 @@
+
+.logo{
+    width: 150px;
+    position: relative;
+    margin: 10px 100px;
+    display: block;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.header{
+    text-align: left;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        margin: 10px;
+    }
+}

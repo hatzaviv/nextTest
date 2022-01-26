@@ -1,0 +1,27 @@
+
+.movies{
+    background: var(--app-background);
+    padding: 20px;
+    text-align: center;
+}
+
+.moviesList{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#searchMovie {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    min-width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .movies {
+        padding: 2px;
+    }
+}
+

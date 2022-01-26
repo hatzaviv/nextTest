@@ -1,0 +1,40 @@
+
+.movie{
+    width: 166px;
+    height: 350px;
+    margin: 5px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.movieTitle{
+    width: 166px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin: 0;
+    height: 50px;
+    text-align: start;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 5px 0px;
+}
+
+.actionButton {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    cursor: pointer;
+    max-width: 166px;
+}
